@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    tools:context="com.zezoo.emergency.MainActivity" >
+   
+     <ImageButton
+         android:id="@+id/Click"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:background="@null"
+         android:src="@drawable/butt" />
+
+     <ProgressBar
+         android:id="@+id/circular_progress_bar"
+         style="?android:attr/progressBarStyleHorizontal"
+         android:layout_width="180dp"
+         android:layout_height="180dp"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:indeterminate="false"
+         android:max="50"
+         android:progress="0"
+         android:progressDrawable="@drawable/circular_progressbar" />
+
+     <TextView
+         android:id="@+id/e"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:text="E"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <LinearLayout
+         android:id="@+id/ll"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_alignTop="@+id/Click"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/t1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509"
+             android:textSize="15dp" />
+
+         <TextView
+             android:id="@+id/t2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="15dp"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+
+         <TextView
+             android:id="@+id/t3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="15dp"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+
+         <TextView
+             android:id="@+id/t4"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+
+         <TextView
+             android:id="@+id/t5"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+
+         <TextView
+             android:id="@+id/t6"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t7"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t8"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t9"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t10"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t11"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t12"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t13"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t14"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t15"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t16"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t17"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         <TextView
+             android:id="@+id/t18"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#efb509" />
+         
+
+     </LinearLayout>
+
+     <ToggleButton
+         android:id="@+id/toggleRecorder"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_toLeftOf="@+id/Click"
+         android:text="تسجيل الصوت"
+         android:textOff="تسجيل الصوت"
+         android:textOn="تسجيل الصوت" />
+
+     <ToggleButton
+         android:id="@+id/toggleTrucker"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:layout_toRightOf="@+id/Click"
+         android:text="تتبع الموقع"
+         android:textOff="تتبع الموقع"
+         android:textOn="تتبع الموقع" />
+
+</RelativeLayout>

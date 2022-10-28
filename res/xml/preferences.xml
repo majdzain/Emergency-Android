@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="وسائل طلب المساعدة" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="cb_send_sms"
+            android:summary="تحتوي الرسالة على الموقع الحالي, قد يترتب عليها صرف رصيد"
+            android:title="إرسال رسالة عبر الرقم" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="cb_send_email"
+            android:summary="تحتوي الرسالة على الموقع الحالي"
+            android:title="إرسال رسالة بريد إلكتروني" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="cb_call"
+            android:title="إتصال لطلب المساعدة" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="متتبع المواقع" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="cb_gps_trucker"
+            android:summary="يتم تسجيل تغيير موقعك مع الزمن"
+            android:title="تتبع الموقع" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="cb_gps_trucker_send_email"
+            android:title="إرسال التغيرات برسائل بريد إلكتروني" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="التسجيل الصوتي" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="cb_record_voice"
+            android:summary="يتم التسجيل عند الضغط على طلب المساعدة"
+            android:title="تسجيل الصوت" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="معلومات طلب النجدة" >
+        <EditTextPreference
+            android:defaultValue="0968969114"
+            android:dialogMessage="الرقم الذي سترسل إليه وتتصل به"
+            android:dialogTitle="رقم المنقذ"
+            android:key="et_help_number"
+            android:title="رقم المنقذ" />
+        <EditTextPreference
+            android:defaultValue="emergency.s.209@gmail.com"
+            android:dialogMessage="البريد الإلكتروني الموجود في الجهاز"
+            android:dialogTitle="الإيميل الحالي"
+            android:key="et_current_email"
+            android:title="الإيميل الحالي" />
+        <EditTextPreference
+            android:defaultValue="emergency.s.210@gmail.com"
+            android:dialogMessage="البريد الإلكتروني الثاني الموجود في الجهاز"
+            android:dialogTitle="الإيميل الحالي الإحتياطي"
+            android:key="et_current_backup_email"
+            android:title="الإيميل الحالي الإحتياطي" />
+        <EditTextPreference
+            android:defaultValue="zezoocvi.77@gmail.com"
+            android:dialogMessage="الإيميل الذي سترسل إليه طلب المساعدة"
+            android:dialogTitle="إيميل المرسل إليه"
+            android:key="et_help_email"
+            android:title="إيميل المرسل إليه" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="إعدادات المطور">
+        <CheckBoxPreference android:title="تحديد الموقع كل ثانية" android:key="cb_truck_every_second" android:defaultValue="false"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
