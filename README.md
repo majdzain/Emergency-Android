@@ -1,3 +1,4 @@
+![icon](ic_launcher_web.png)
 # Emergency
 An android application for help users who fall into emergency situations by one press it will send SMS and email contain location(without internet), help message, and voice recording.
 
