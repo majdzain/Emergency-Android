@@ -6,16 +6,16 @@ An android application for help users who fall into emergency situations by one 
 
 ### Features 🚀
 - **by one press**
-- detecting location coordinates with GPS service by multi methods
+- detecting location coordinates with **GPS service** by multi methods
 - support location detecting **without internet**
 - location tracking
 - recording voices
 - send SMS messages and emails contain location coordinates, location name, voice records to the savor
 - direct call savor
 - add savors by phone number, and email address
-- save location tracks with sharedpreferences
+- save location tracks with **SharedPreferences**
 
-## Some Screenshots 🎉
+## Screenshots 🎉
 Home  |  Detecting Location  |  Settings
 :-------------------------:|:-------------------------:|:-------------------------:
 ![screen1](screenshots/screen1.jpg)  |  ![screen2](screenshots/screen2.jpg)  |  ![screen3](screenshots/screen3.jpg)
